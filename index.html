@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Principal</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <h1>Bem-vindo</h1>
     <p>Esta é uma página HTML básica.</p>
+
+    <div class="card" aria-live="polite">
+        <p id="greeting">Olá!</p>
+        <p>Agora: <strong id="clock">—</strong></p>
+        <p>Cliques no botão: <strong id="count">0</strong></p>
+        <button id="clickButton" type="button">Clique aqui</button>
+    </div>
 </body>
 </html>
